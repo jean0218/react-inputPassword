@@ -1,0 +1,103 @@
+/*==============================
+文件名称：天天掌柜公共样式--屏幕适配
+创建时间：20161020
+创 建 者：Jean peng
+版本：V1.0
+功能描述：各种终端适配
+==============================*/
+
+
+@media screen and (max-width:1920px) and (min-width:1281px){
+  html,body{ font-size:2em;}
+ 
+}
+/*
+适配机型：红米Note
+*/
+@media screen and (max-width:1280px) and (min-width:1081px){
+  html,body{ font-size:2.2em;}
+ 
+}
+/*
+适配机型：红米pro
+*/
+@media screen and (max-width:1080px) and (min-width:1025px){
+  html,body{ font-size:2em;}
+ 
+}
+@media screen and (max-width:1024px)  and (min-width:769px){
+  html,body{ font-size:1.4em;}
+  
+}
+/*
+适配机型：IPad
+*/
+@media screen and (max-width:768px) and (min-width:721px){
+  html,body{ font-size:1.5em;}
+
+}
+@media screen and (max-width:720px) and (min-width:641px){
+  html,body{ font-size:1.4em;}
+}
+@media screen and (max-width:640px) and (min-width:481px){
+  html,body{ font-size:1.2em;} 
+}
+
+@media screen and (max-width:480px) and (min-width:436px){
+  html,body{ font-size:0.925em;}   
+}
+@media screen and (max-width:435px) and (min-width:415px){
+  html,body{ font-size:0.925em;}  
+}
+/*
+适配机型：Ihone6 Plus
+*/
+@media screen and (max-width:434px) and (min-width:414px){
+  html,body{font-size:0.825em;}
+
+}
+/*
+适配机型：Nexus 5X, Nexus 6p
+*/
+@media screen and (max-width:413px) and (min-width:412px){
+  html,body{font-size:0.825em;}
+}
+/*
+适配机型：IPadmini
+*/
+@media screen and (max-width:411px) and (min-width:400px){
+  html,body{font-size:0.825em;} 
+  
+}
+@media screen and (max-width:399px) and (min-width:376px){
+  html,body{font-size:0.825em;} 
+}
+/*
+适配机型：Ihone6
+*/
+@media screen and (max-width:375px) and (min-width:361px){
+ html,body{font-size:0.725em;} 
+ 
+}
+/*
+适配机型：Galaxy S5
+*/
+@media screen and (min-width:321px) and (max-width:360px){
+  html,body{ font-size:0.625em;}
+  .reg-content-msg{padding: 0 1.6rem 2rem;}
+  .regform-body {padding: 0 1.6rem 2rem;}
+}
+/*
+适配机型：Ihone5
+*/
+@media screen and (max-width:320px){
+  html,body{ font-size:0.625em;}
+  .regform-body {padding: 0 1.4rem 2rem;}
+  .regform-content {padding: 2.5rem 1.4rem 0;}
+  .reg-content-msg{padding:0 1.4rem 0;}
+  .regform-line{margin-bottom: 1rem;}
+ 
+}
+
+
+

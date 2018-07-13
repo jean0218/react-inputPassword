@@ -1,0 +1,172 @@
+/*==============================
+文件名称：天天掌柜公共样式--页面初始化
+创建时间：20161020
+创 建 者：Jean peng
+版本：V1.0
+功能描述：
+==============================*/
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  font-family: Lato, "Monospace Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  -webkit-overflow-scrolling:touch; 
+          overflow-scrolling:touch;
+  font-size:10px;
+  background: #fff;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+
+}
+div,
+span,
+object,
+iframe,
+img,
+table,
+caption,
+thead,
+tbody,
+tfoot,
+tr,
+tr,
+td,
+article,
+aside,
+canvas,
+details,
+figure,
+hgroup,
+menu,
+nav,
+footer,
+header,
+section,
+summary,
+mark,
+audio,
+video {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cit,
+code,
+del,
+dfn,
+em,
+ins,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+b,
+i,
+hr,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+legend,
+label {
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+article,
+aside,
+canvas,
+figure,
+figure img,
+figcaption,
+hgroup,
+footer,
+header,
+nav,
+section,
+audio,
+video {
+  display: block;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+table caption,
+table th,
+table td {
+  text-align: left;
+  vertical-align: middle;
+}
+a img {
+  border: 0;
+}
+
+
+:focus {
+  outline: 0;
+}
+ol,ul{
+  list-style: none;
+}
+/*--旋转屏幕时，字体大小调整的问题--*/
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
+    -webkit-text-size-adjust:100%;
+}
+
+
+@font-face {font-family: "iconfont";
+  src: url('../fonts/iconfont.eot?t=1491363216384'); /* IE9*/
+  src: url('../fonts/iconfont.eot?t=1491363216384#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/iconfont.woff?t=1491363216384') format('woff'), /* chrome, firefox */
+  url('../fonts/iconfont.ttf?t=1491363216384') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../fonts/iconfont.svg?t=1491363216384#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chenggong:before { content: "\e71e"; }
+
+.icon-houtui:before { content: "\e602"; }
+
+.icon-jinggao:before { content: "\e61d"; }

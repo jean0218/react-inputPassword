@@ -1,0 +1,16 @@
+# ignore node/grunt dependency directories
+node_modules/
+app/
+
+.idea/
+
+
+
+# project system generated files
+*.log
+.svn/
+
+
+
+# ignore OS generated files
+.DS_Store

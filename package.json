@@ -1,0 +1,51 @@
+{
+  "name": "react-inputpassword",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --config ./build/webpack.config.js",
+    "start": "webpack-dev-server --config ./build/webpack.config.js",
+    "dev": "webpack --config ./build/webpack.dev.config.js",
+    "build": "webpack --progress --profile --colors --config ./build/webpack.pro.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jean0218/react-inputPassword.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jean0218/react-inputPassword/issues"
+  },
+  "homepage": "https://github.com/jean0218/react-inputPassword#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "enzyme-adapter-inferno": "^1.3.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-test-renderer": "^16.4.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.3"
+  },
+  "devDependencies": {
+    "babel-jest": "^23.2.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^23.3.0"
+  }
+}
