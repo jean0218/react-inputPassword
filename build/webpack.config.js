@@ -2,7 +2,7 @@ const webpack = require('webpack');
 const path = require('path');
 const webpackBaseConfig = require('./wepback.base.config.js');
 const merge = require('webpack-merge');
-const outputDir = 'app';
+const outputDir = 'dist';
 
 
 

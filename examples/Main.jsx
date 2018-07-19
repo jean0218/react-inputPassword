@@ -17,7 +17,7 @@ export default class Main extends Component{
                             value = "demo01.html" 
                         />             
                     </div>
-                    <iframe src = "demo01.html" className = "iframe_mobile_content" />          
+                    <iframe src = "./dist/demo01.html" className = "iframe_mobile_content" />          
                 </div>
             </div>
         )
