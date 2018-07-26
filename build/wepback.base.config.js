@@ -20,6 +20,7 @@ const webpackBaseConfig = {
         noParse: /node_modules\/(jquey\.js)/,
         rules: [{
             test: /\.(js|jsx)$/,
+            type: 'javascript/auto',
             use: [{
                 loader: 'babel-loader',
                 options: {

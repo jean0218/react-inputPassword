@@ -7,6 +7,7 @@ const outputDir = 'dist';
 
 
 const webpackConfig = merge(webpackBaseConfig, {
+    mode:'development',
     devtool: 'cheap-module-eval-source-map',
     output: {
         path: path.resolve(__dirname, '../' + outputDir + '/'),
